@@ -4,7 +4,8 @@ void btlo_helper(const binary_tree_t *tree, void (*func)(int), size_t level);
 size_t binary_tree_height(const binary_tree_t *tree);
 
 /**
- * binary_tree_levelorder - Goes through a binary tree using level-order traverse
+ * binary_tree_levelorder - Goes through a binary tree using
+ *                          level-order traverse
  * @tree: Pointer to the root node of the tree to traverse
  * @func: Pointer to a function to call for each node
  * If tree or func is NULL, do nothing
